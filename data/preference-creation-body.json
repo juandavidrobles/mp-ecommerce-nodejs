@@ -1,0 +1,46 @@
+{
+    "back_urls": {
+        "success": "https://mercadopago-checkout-pro-jdr.herokuapp.com/success",
+        "pending": "https://mercadopago-checkout-pro-jdr.herokuapp.com/pending",
+        "failure": "https://mercadopago-checkout-pro-jdr.herokuapp.com/failure"
+    },
+    "external_reference": "jdroblesdelvalle@gmail.com",
+    "payment_methods": {
+        "excluded_payment_methods": [
+            {
+                "id": "amex"
+            },
+            {
+                "id": "atm"
+            }
+        ],
+        "excluded_payment_types": [
+            {}
+        ],
+        "installments": 6
+    },
+    "items": [
+        {
+            "title": "Telefono móvil",
+            "description": "Dispositivo móvil de Tienda e-commerce",
+            "picture_url": "https://mercadopago-checkout-pro-jdr.herokuapp.com/assets/samsung-galaxy-s9-xxl.jpg",
+            "quantity": 1,
+            "currency_id": "COP",
+            "unit_price": 10000
+        }
+    ],
+    "payer": {
+        "name": "Lalo Landa",
+        "email": "test_user_83958037@testuser.com",
+        "phone": {
+            "area_code": "52",
+            "number": "5549737300"
+        },
+        "identification": {},
+        "address": {
+            "street_name": "Insurgentes Sur",
+            "street_number": 1602,
+            "zip_code": "03940"
+        }
+    }
+}

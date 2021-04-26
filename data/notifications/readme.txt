@@ -1,0 +1,1 @@
+Esta carpeta contiene todos los archivos de notificaciones creadas
